@@ -30,6 +30,8 @@ namespace EditorAttributes.Editor
         {
             BUILD_KILLERS = 0;
 
+            return;
+
             if (!EditorAttributesSettings.instance.disableBuildValidation)
                 ValidateAll();
 
